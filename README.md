@@ -33,7 +33,8 @@ Now that you have the token you can go to the **data** folder and then open **co
 
 Once **config.json** opens up, replace **ENTER_BOT_TOKEN** with the bot token you copied from Discord and then save the file.
 
-Open command prompt, konsole, or whichever terminal application you use in the root folder (root folder = folder that contains the **index.js** file) and then type **node index.js**.
+Open command prompt, konsole, or whichever terminal application you use in the root folder (root folder = folder that contains the **index.js** file) and then type **npm i**, this will install packages.
+Once the packages have installed type **node index.js**.
 
 If everything goes well, you should see **Connected to <bot_tag>** in your terminal.
 
