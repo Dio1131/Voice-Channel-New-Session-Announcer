@@ -39,3 +39,8 @@ Once the packages have installed type **node index.js**.
 If everything goes well, you should see **Connected to <bot_tag>** in your terminal.
 
 Now you can go to the server you added the bot to and then type **/set_announcement_channel #channel** to setup an announcement channel.
+
+## Notes
+This bot uses JSON files to store announcement channel data, if you'd like to use something such as MongoDB, look into setting up an npm package such as Mongoose.
+
+Since this is designed to be used in small/private servers I decided not to use Mongoose since it'd require a few more steps.
