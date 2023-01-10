@@ -44,3 +44,5 @@ Now you can go to the server you added the bot to and then type **/set_announcem
 This bot uses JSON files to store announcement channel data, if you'd like to use something such as MongoDB, look into setting up an npm package such as Mongoose.
 
 Since this is designed to be used in small/private servers I decided not to use Mongoose since it'd require more setup on the users side.
+
+**If you do plan on using this on many servers I highly recommend looking into proper databases, JSON files aren't designed to handle a lot of read and write operations and may corrupt**.
