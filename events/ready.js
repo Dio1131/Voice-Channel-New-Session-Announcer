@@ -11,7 +11,6 @@ module.exports = {
 
 		const slashCommandData = client.commands.map(v => v.slash)
 
-		client.guilds.cache.get("1006116453214335046").commands.set(slashCommandData)
-		// client.application.commands.set(slashCommandData)
+		client.application.commands.set(slashCommandData)
 	}
 }
