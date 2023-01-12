@@ -23,12 +23,12 @@ module.exports = {
 
 	/** @returns {EmbedBuilder} */
 	successEmbed() {
-		return new EmbedBuilder().setColor(resolveColor("57f287"))
+		return new EmbedBuilder().setColor("57f287")
 	},
 
 	/** @returns {EmbedBuilder} */
 	errorEmbed() {
-		return new EmbedBuilder().setColor(resolveColor("ed4245"))
+		return new EmbedBuilder().setColor("ed4245")
 	},
 
 	millisecondsToSeconds(milliseconds) {
