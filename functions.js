@@ -1,5 +1,4 @@
-const { EmbedBuilder } = require("@discordjs/builders")
-const { resolveColor } = require("discord.js")
+const { EmbedBuilder } = require("discord.js")
 const { readFileSync, writeFileSync } = require("fs")
 
 module.exports = {
